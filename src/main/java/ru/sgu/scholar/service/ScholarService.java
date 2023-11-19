@@ -21,7 +21,6 @@ public class ScholarService {
     private final ArticleRepository articleRepository;
     private final AuthorRepository authorRepository;
     private final SearchApi searchApi;
-
     private final ExecutorService executorService;
 
     public void saveAuthorInfo(AuthorDTO authorDTO) throws InterruptedException {
