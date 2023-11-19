@@ -18,7 +18,7 @@ public class AtricleController {
     private final ScholarService scholarService;
 
     @PostMapping
-    public ResponseEntity<?> saveArticle(@RequestBody AuthorDTO authorDTO) {
+    public ResponseEntity<?> saveAuthorArticles(@RequestBody AuthorDTO authorDTO) {
         try {
             scholarService.saveAuthorInfo(authorDTO);
             return new ResponseEntity<>(HttpStatus.OK);
