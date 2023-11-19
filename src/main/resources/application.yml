@@ -1,0 +1,13 @@
+google:
+    scholar:
+        api: "https://serpapi.com/search.json"
+        apiKey: "e07bb3bcfadd34f060551a8c23ee8366204396ac294234de4546b073189973fc"
+
+spring:
+    datasource:
+        url: "jdbc:postgresql://localhost:5432/scholarProject"
+        username: "anna"
+        password: "1234"
+    jpa:
+      hibernate:
+          ddl-auto: update
